@@ -29,7 +29,7 @@ namespace Moduit.API.Controllers
                 //dynamic json = JsonConvert.DeserializeObject(jsonString);
                 DataTable dt = ConvertJsonToDatatable(jsonString);
 
-                return new JsonResult(dt);
+                //return new JsonResult(dt);
                 //JArray array = JArray.Parse(jsonString);
                 //foreach (JObject obj in array.Children<JObject>())
                 //{
