@@ -113,7 +113,7 @@ namespace Moduit.API.Controllers
                         continue;
                     }
                 }
-                if ((nr["description"].ToString() != "") || (nr["description"].ToString() != ""))
+                if ((nr["description"].ToString() != "") || (nr["tags"].ToString() != ""))
                 {
                     dt.Rows.Add(nr);
                     dt = dt.AsEnumerable().Reverse().Take(3).CopyToDataTable();
